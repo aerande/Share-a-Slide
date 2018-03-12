@@ -1,0 +1,667 @@
+@CHARSET "ISO-8859-1";
+.complete{
+	z-index: 0;
+}
+.top-bar{
+	overflow: hidden;
+    background: rgba(52, 55, 59, 1);
+    height: 80px;
+    
+	
+}
+
+.left{
+	float: left;
+	height: 50px;
+	margin: auto;
+	    width: 100%;
+padding: 0px 150px;
+    
+}
+.logo{
+	height: 36px;
+	
+	float: left;
+	margin-top: 7px;
+	
+}
+.heading{
+	    color: #E2E2E2;
+    /* position: absolute; */
+    line-height: -2px;
+    margin: 10px 0px 0px 10px;
+    float: left;
+    font-size: 22px;
+    padding-top: -39px;
+}
+.search{
+	    width: 207px;
+    height: 30px;
+    border: 1px solid #282a2d;
+    background-color: #121314;
+    padding-right: 28px;
+    padding-left: 17px;
+    margin: 10px 0px 0px 10px;
+    adding-left: 13px;
+    border-radius: 28px;
+    margin-right: 28px;
+    color: #ffffff;
+    background: url(images/search.png) no-repeat;
+    background-position: 169px 7px;
+}
+.signup
+{
+	    float: right;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 87px;
+    background-color: #E9852A;
+}
+
+.login
+{
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    border: none;
+    margin-left: 20px;
+    border-radius: 35px;
+    margin-top: 10px;
+    width: 87px;
+    background-color: #E9852A;	
+}
+
+.nav
+{
+    height: 30px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #515151;
+    padding: 0px 150px;
+}
+
+.navele
+{
+	 width: 1000px;
+    float: left;
+    margin-top: 5px;
+    height: 30px;
+    padding: 0px;
+}
+.navcommon
+{
+	display: inline;
+    padding: 5px 20px;
+    border: 1px solid #16191f;
+    border-style: hidden;
+}
+.nav a{
+	    color: #BFBFBF;
+}
+.content
+{
+	background-color: #E0E0E0;
+	min-height: 604px;
+}
+.footer
+{
+	background: rgba(52, 55, 59, 1);
+	height: 50px;
+	padding: 20px 0px;
+}
+.footer a:first-child
+{
+	padding-left: 900px;
+}
+.footer a
+{
+	color: #E2E2E2;
+    border-right: 2px solid #6a7796;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.background{
+	height: 282px;
+    /* margin-top: 10px; */
+    z-index: 0;
+    position: relative;
+    background-image: url(images/background2.png);
+}
+.row1{
+    overflow: hidden;
+    background-color: #E0E0E0;
+    /* min-height: 447px; */
+    margin: 0px 129px;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    /* top: -88px; */
+    bottom: 113px;
+    min-height: 400px;
+    
+    
+}
+.sub_content{
+	    height: 350px;
+    background: #E0E0E0;
+    /* position: relative; */
+    overflow: hidden;
+    color: red;
+    /* margin-top: 23px; */
+    margin: 20px auto;
+}
+.ppt1{
+    float: left;
+    width: 290px;
+    height: 350px;
+    /* min-height: 325px; */
+    /* padding: 0px 0px 0px 0px; */
+    margin-left: 76px;
+    margin-right: 32px;
+    background-color: #1d202a;
+    
+}
+.ppt2{
+	    float: left;
+    width: 290px;
+    min-height: 372px;
+    /* padding: 0px 0px 0px 0px; */
+    margin-right: 29px;
+    background-color: #1d202a;
+    /* margin-top: 20px; */
+}
+.ppt3{
+	float: left;
+    width: 290px;
+    min-height: 372px;
+    /* margin-top: 20px; */
+    padding-left: 0px;
+    /* background-color: #1d202a; */
+    background-color: #232631;
+}
+.ppt1 img{
+	padding: 10px;
+    display: block;
+    width: 100%;
+}
+.ppt2 img{
+	padding: 10px;
+    display: block;
+    width: 100%;
+}
+.ppt3 img{
+	padding: 10px;
+    display: block;
+    width: 100%;
+    height: 176px;
+}
+.para_heading{
+	color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.para_text{
+	color: #E0E0E0;
+    text-align: center;
+}
+.learn{
+	    text-align: center;
+    font-size: xx-large;
+    color: white;
+    /* top: 36px; */
+    line-height: 90px;
+}
+.quote{
+	    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.content_login{
+    background-color: #E0E0E0;
+    min-height: 604px;
+    padding: 145px 30px 0px 30px;
+}
+
+.field_login{
+    border: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: .5rem;
+}
+
+.login_form{
+    margin: 0 auto;
+    max-width: 178px;
+}
+
+.login_input{
+    margin-bottom: .5rem;
+}
+
+h2{
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+.forgot_login{
+    float: right;
+    position: relative;
+    padding-top: 3px;
+}
+
+.forgot_login a{
+    line-height: inherit;
+    color: black;
+    border-bottom: 1px dashed #97928c;
+    font-size: 11px;
+    font-style: italic;
+}
+.button_login{
+    position: absolute;
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    
+    border-radius: 35px;
+    
+    width: 87px;
+    background-color: #E9852A;
+}
+
+.login_signup{
+    
+}
+
+.login_signup a{
+    color: black;
+    font-size: 13px;
+}
+
+
+
+
+
+.content_signup{
+    background-color: #E0E0E0;
+    min-height: 604px;
+        padding: 100px 196px 0px 30px;
+}
+
+.signup_form{
+    margin: 0 auto;
+    max-width: 178px;
+}
+
+.field_signup{
+    border: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: .5rem;
+}
+
+.table_signup{
+    width: 400px;
+}
+
+.td_label{
+    text-align: right;
+    padding-right: 8px;
+}
+
+.signup_terms{
+    width: 300px;
+}
+
+.signup_terms a{
+    color: green;
+    font-size: 13px;
+    border-bottom: 1px #FFF;
+    font-weight: bold;
+}
+
+.button_signup{
+    position: absolute;
+}
+
+.button_reset{
+    line-height: inherit;
+        position: relative;
+    float: right;
+}
+
+.signup_login{
+    width: 200px;
+}
+
+.signup_login a
+{
+    color: black;
+    font-size: 13px;
+}
+.content_aftlogin{
+	background-color: #E0E0E0;
+    min-height: 604px;
+}
+.detailblock{
+	overflow: hidden;
+    background-color: #E0E0E0;
+    width: 23%;
+        display: inline-block;
+    min-height: 500px;
+}
+.sub_detailblock{
+	height: 427px;
+    background: #C3C3C3;
+    overflow: hidden;
+    color: red;
+    margin: 30px 30px 30px 10px;
+}
+.photo{
+	        height: 114px;
+    padding: 20px 0px 0px 85px;
+}
+.option{
+	    margin: 30px 10px 50px 43px;
+    height: 309px;
+    color: rgba(52, 55, 59, 1);
+    padding: 0px;
+    list-style-type: none;
+    font-size: 25px;
+	
+}
+.upload{
+	float: right;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    border: none;
+    margin-left: 20px;
+    border-radius: 35px;
+    margin-top: 10px;
+    width: 87px;
+    background-color: #E9852A;	
+	
+}
+.nav_photo{
+	vertical-align: middle;
+    float: right;
+    margin-left: 12px;
+    height: 42px;
+    padding-top: 7px;
+}
+.row1_aftlogin{
+	overflow: hidden;
+    background-color: #E0E0E0;
+    float: right;
+    width: 74%;
+    margin-top: 48px;
+}
+.sub_content_aftlogin{
+	    height: 350px;
+    background: #E0E0E0;
+    margin: 20px auto;
+}
+.ppt1_aftlogin{
+	    float: left;
+    width: 290px;
+    height: 371px;
+    margin-right: 32px;
+    background-color: #1d202a;
+}
+.ppt1_aftlogin img{
+	padding: 10px;
+    display: block;
+    width: 100%;
+}
+.learnmore{
+	text-align: center;
+    font-size: 19px;
+}
+.profile_details{
+	width: 53%;
+    float: right;
+    height: 400px;
+    margin: 60px 0px;
+    display: table-row;
+}
+
+.profile_details h2{
+	margin-left: 124px;
+    margin-bottom: 41px;
+}
+.slide_details{
+	width: 70%;
+    float: right;
+    height: 400px;
+    margin: 60px 0px;
+    display: table-row;
+}
+.topic{
+	margin-left:20px;
+	    margin-bottom: 6px;
+}
+.type{
+	margin-left: 20px;
+	    margin-bottom: 6px;
+}
+.purpose{
+	margin-left: 20px;
+	    margin-bottom: 6px;
+	
+}
+.brief{
+	margin-left: 21px;
+	    margin-bottom: 6px;
+}
+.file{
+	    margin-left: 21px;
+    display: inline;
+}
+.type_label{
+	text-align: left;
+    padding-right: 8px;
+    font-size: 17px;
+}
+.button_share{
+	    float: left;
+    display: inline;
+    margin: 25px 0px 0px 170px;
+	
+}
+.button_reset_details{
+	    top: 24px;
+    position: relative;
+    /* margin: 22px 0px 0px 45px; */
+    display: inline;
+    margin-left: 40px;
+	
+}
+.share{
+	    background: #4CAF50;
+    /* float: left; */
+    color: black;
+    width: 73px;
+    height: 33px;
+    font-size: 19px;
+    border-radius: 7px;
+    border: none;
+}
+.slidedetails_reset{
+	background: #4CAF50;
+    /* float: left; */
+    color: black;
+    width: 73px;
+    height: 33px;
+    font-size: 19px;
+    border-radius: 7px;
+    border: none;
+}
+.content_ppt{
+	width: 60%;
+    height: 427px;
+    bottom: 527px;
+    margin-right: 150px;
+	/* background: pink; */
+    float: right;
+    margin-top: 40px;
+    
+}
+.prev {
+        cursor: pointer;
+    /* position: absolute; */
+    top: 50%;
+    width: 50px;
+    background: grey;
+    padding: 16px;
+    margin-top: 167px;
+    float: left;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    /* transition: 0.6s ease; */
+    border-radius: 3px 3px 3px 3px;
+}
+.next {
+        /* margin-left: 864px; */
+    cursor: pointer;
+    /* position: absolute;
+    top: 50%;
+    left: 1355px; */
+    width: 50px;
+    background: grey;
+    padding: 16px;
+    margin-top: -236px;
+    float: right;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    /* transition: 0.6s ease; */
+    border-radius: 3px 3px 3px 3px;
+}
+.display_ppt{
+    margin-left: 70px;
+    width: 760px;
+    float: left;
+    height: 400px;
+    padding-right: 87px;
+
+
+}
+
+.display_ppt img{
+	width: 100%;
+	height: 100%;
+}
+.about{
+	    width: 50%;
+    min-height: 532px;
+    float: left;
+    
+}
+.sub_about{
+	    margin-left: 143px;
+    width: 79%;
+    margin-top: 43px;
+    height: 450px;
+    
+}
+.contactus{
+	    width: 50%;
+    min-height: 532px;
+    float: right;
+}
+.sub_contactus{
+	    margin-left: 64px;
+    width: 79%;
+    margin-top: 43px;
+    height: 450px;
+    
+}
+.why_share{
+	width: 69%;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.sub_about h1{
+	font-size: 38px;
+	    margin-left: 11px;
+}
+.sub_contactus h3{
+	   
+    font-size: 27px;
+}
+.add_contactus{
+	 margin-top: 32px;
+}
+.sub_contactus p{
+    font-size: 20px;
+}
+.sub_contactus span{
+    font-size: 20px;
+}
+
+.policy{
+	width: 100%;
+    float: left;
+    min-height: 532px;
+}
+.sub_policy{
+	    margin: 10px 50px 0px 50px;
+}
+
+.download{
+	    width: 120px;
+    margin-left: 394px;
+    margin-top: 20px;
+}
+
+.content_login_admin{
+	background-color: #E0E0E0;
+    min-height: 604px;
+    padding: 40px 30px 0px 30px;
+}
+
+.table_admin{
+	width: 1453px;
+}
+
+.content_aftlogin_view{
+	background-color: #E0E0E0;
+    min-height: 1604px;
+}
+
+.search_button{
+    border-radius: 35px;
+    background-color: #E9852A;
+    border: none;
+}
+.download_ppt
+{
+    margin-left: 407px;
+    margin-top: 18px;
+    width: 120px;
+    height: 51px;
+    font-size: 23px;
+     border-radius: 35px;
+    background-color: #E9852A;
+    border: none;
+}
